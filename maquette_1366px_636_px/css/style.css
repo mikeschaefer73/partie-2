@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'asgaltregular';
+    src: url('../font/asgalt-regular/asgalt-regular-webfont.woff2') format('woff2'),
+         url('../font/asgalt-regular/asgalt-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'fishfingersregular';
+    src: url('../font/fishfingers/fishfingers_0-webfont.woff2') format('woff2'),
+         url('../fishfingers/fishfingers_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bree_serifitalic';
+    src: url('../font/breeserif/breeserif-italic_0-webfont.woff2') format('woff2'),
+         url('../font/breeserif/brees/erif-italic_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, nav, section, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+header{
+    
+    height: 1200px;
+    background-image: url("../img/background.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.menu 
+{
+    display: flex;
+    padding-left: 35%;
+ }
+nav
+{
+	background: #003356;
+    height: 100px;
+    opacity: 0.7;
+}
+nav li
+{
+    margin-right: 30px;
+    padding-top: 20px;
+    font-size: 2em;
+    font-family: 'bree_serifitalic';
+    list-style: none;
+    color: white;
+    
+}
+.ancre{
+    text-decoration: none;
+    color: white;
+}
+.titre{
+
+	
+	margin-right: 20%;
+	margin-left: 20%;
+	padding-right: 50px;
+	background-color: white;
+	opacity: 0.2;
+	height: 300px;
+  width: ;
+}
+h1
+{
+	text-align: center;
+	color: #003356;
+	font-size: 4em;
+	font-family: 'fishfingersregular';
+	margin-top: 150px;
+    padding-top: 50px;
+    padding-left: 70px;
+} 
+#logo 
+{
+    background: white;
+    position: fixed;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px / 10px;
+    margin-left: 88%;
+    margin-top: 10px;
+    text-align: center;
+    padding: 2.5px;
+    
+    
+}
+h2
+{
+    font-family: 'bree_serifitalic';
+    font-size: 2.5em;
+    color: NANDE2E;
+}
+article
+{
+  height: 800px;
+   background: #dde2e6;
+   
+} 
+#Apropos
+{
+  padding-top: 50px;
+  padding-left: 250px;    
+}
+.line2
+{
+    width: 530px;
+    position:absolute;
+    right: 300px;
+    top: 2075px;
+    border: solid NANDE2E;
+    border-radius: 2px;
+   
+}
+.line1
+{
+    width: 530px;
+    position:absolute;
+    right: 300px;
+    top: 1230px;
+    border: solid NANDE2E;
+    border-radius: 2px;
+}
+.picture img /*taille des images , alignement sur une ligne pour les images et espace entre les images*/
+{
+  width: 483px;
+  height: 350px;
+  display: inline-block;
+  padding-left: 10px;
+      
+}
+.picture img:hover /* hover pour augmenter l'opacite de la loupe et diminuer celui de l'image lors du passage de la souris*/
+{
+  opacity: 0.5;
+}
+.picture a /* integration de l'image dans la balise a , alignement sur une ligne pour la loupe , enlever la repetition et centrer la loupe*/
+{
+  display: inline-block;
+  background: url('../img/loup.png') no-repeat center;
+}
+.picture
+{
+    margin-left: 14%;
+}
+
+.decoration
+{
+  float: left;
+  height: 715px;
+  width: 375px;
+  margin-left: 70px;
+  margin-top: 50px;
+  margin-right: 35px;
+}
+.text
+{
+
+  font-family: 'asgaltregular';
+  font-size: 2.9em;
+  text-align: justify;
+  padding-top: 120px;
+  padding-right: 40px;
+}
+aside
+{
+  background-color: white;
+  height: 1000px;
+}
+#line3
+{
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 2px;
+  color: #003356;
+  padding-top: 30px;
+   
+}
+.linefooter
+{
+  height: 5px;
+  background-color: #003556;
+}
+#border
+{
+  background-color: #dde2e6;
+  height: 100px;
+  
+}
+#footer
+{
+    
+  background: #003356;
+  height: 100px;
+  text-align: center;
+  font-family: 'asgaltregular';
+  font-size: 2.5em;
+  color: #dde2e6;
+  padding-top: 30px;    
+}
+ul li
+{
+  display: inline;
+}
+@media all and (min-width: 768px) and (max-width: 1024px)
+{
+#logo
+{
+    background: white;
+    position: fixed;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px / 10px;
+    margin-left: 10PX;
+    margin-top: 10px;
+    text-align: center;
+    padding: 2.5px;
+}
+.picture
+{
+    margin-left: 22%;
+}
+.line1 
+{
+  display: none;
+}
+.line2
+{
+  display: none;
+}
+.decoration
+{
+  display: none;
+}
+.picture img
+{
+  width: 283px;
+  height: 250px;
+  display: inline-block;
+  padding-left: 10px;
+  margin-top: 100px;
+}
+
